@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+  theme: {
+    extend: {
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }                    
+    },
+  },
+}
+    </script>
+  </head>
+  <body class="bg-[#f6f6f6]" data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+    <div class="bg-blue-600 hover:bg-gray-800 duration-300">
+        <h1 class="text-white text-center text-xl cursor-pointer p-2">Accepting 4 new clients. <b>Get started now</b></h1>
+    </div>
+    <!--header-->
+    <div class="container mx-auto bg-[#f6f6f6] mt-5">
+        <nav class="flex items-center">
+            <img src="./images/logo.svg" class="w-40 cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"></li><a href="#" class="text-gray-800 text-2xl font-semibold px-2 hover:text-blue-600">Home</a></li>
+                <li class="list-none inline-block px-5"></li><a href="#" class="text-gray-800 text-2xl font-semibold px-2 hover:text-blue-600">About Us</a></li>
+                <li class="list-none inline-block px-5"></li><a href="#" class="text-gray-800 text-2xl font-semibold px-2 hover:text-blue-600">Blog</a></li>
+            </ul>
+            <a href="#" class="text-white font-semibold bg-blue-600 inline-block rounded-3xl px-5 py-3 hover:bg-gray-800 duration-300">Get Started</a>
+        </nav>
+        <div class="bg-[#f6f6f6] mt-20">
+          <h1 class="text-gray-800 font-semibold text-6xl text-center">Save time & <span class="text-blue-600">work smarter</span><br> with AI Automation</h1>
+          <p class="text-gray-600 text-center text-xl mt-5" >We help you automate your workflows, automate repetitive<br>tasks, and elevate your business.</p>
+          <div class="text-center mt-5">
+            <a href="#" class="text-white text-center text-xl items-center font-semibold bg-blue-600 inline-block rounded-3xl px-6 py-5 hover:bg-gray-800 duration-300">Book Your Free Audit Call</a>
+          </div>
+        </div> 
+      <div class="container mx-auto mt-10">
+          <div class="relative cursor-pointer">
+            <img src="./images/img1.jpg" class="w-20 h-20 rounded-full border-4 border-white absolute top-0 left-[454px]">
+            <img src="./images/img2.jpg" class="w-20 h-20 rounded-full border-4 border-white absolute top-0 left-[500px]">
+            <img src="./images/img3.jpg" class="w-20 h-20 rounded-full border-4 border-white absolute top-0 left-[542px]">
+          </div>
+          <div class="bg-white px-52 cursor-pointer relative">
+            <p class="text-gray-600 text-2xl font-semibold absolute top-0 left-[634px]">200+ happy clients!</p>
+            <p class="text-gray-600 text-2xl absolute top-8 left-[634px] mb-20">Join them now <span class="text-lg inline-block">&#10148</span></p>
+        </div>
+    </div>
+      <div class="container mt-40">
+        <iframe width="1270" height="675" src="https://www.youtube.com/embed/QbFT7EnofZw" title="Customizing the Rio Template - AI Automation Agency Website Template" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <!--<div class="mt-10">
+        <p class="text-2xl text-gray-800 text-center">Trusted by 40+ worldwide clients
+        </p>
+      </div> -->
+    </div>
+    <div class="mt-20">
+      <p class="text-2xl text-gray-800 text-center font-semibold">Trusted by 40+ worldwide clients
+      </p>
+    </div>
+    <div class="container mx-auto mt-10">
+    <div class="w-full inline-flex flex-nowrap">
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+          <li>
+              <img src="./images/img4.svg" alt="img4" />
+          </li>
+          <li>
+              <img src="./images/img5.svg" alt="img5" />
+          </li>
+          <li>
+              <img src="./images/img6.svg" alt="img6" />
+          </li>
+          <li>
+              <img src="./images/img7.svg" alt="img7" />
+          </li>
+          <li>
+              <img src="./images/img8.svg" alt="img8" />
+          </li>
+      </ul>
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+        <li>
+          <img src="./images/img4.svg" alt="img4" />
+      </li>
+      <li>
+          <img src="./images/img5.svg" alt="img5" />
+      </li>
+      <li>
+          <img src="./images/img6.svg" alt="img6" />
+      </li>
+      <li>
+          <img src="./images/img7.svg" alt="img7" />
+      </li>
+      <li>
+          <img src="./images/img8.svg" alt="img8" />
+      </li>
+      </ul>
+  </div>
+  </div>
+  <!--services-->
+  <div class="flex flex-col items-center justify-center mt-32">
+    <p class="text-blue-500 bg-white font-bold text-center px-7 py-3 rounded-xl">SERVICES</p>
+    <h1 class="text-6xl font-semibold text-center mt-10"><span class="text-blue-600" data-aos="fade-up">AI-powered </span>automation<br>services</h1>
+  </div>
+  <div class="container bg-[#f6f6f6] text-gray-800 py-20 mx-auto">
+    <div class="space-y-10 grid grid-cols-2 gap-2" data-aos="fade-up">
+      <!--card 1-->
+      <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-white p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+        <img src="./images/img11.svg" class="mt-5">
+        <h2 class="text-3xl font-Cabin font-semibold mt-2">Customer Support Chatbots</h2>
+        <p class="font-Cabin text-gray-500 font-semibold mt-2 text-xl">Streamline operations and enhance productivity with AI-driven automation. </p>
+        <div class="flex gap-5 mt-4">
+          <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+          <img src="./images/img9.svg" class="cursor-pointer">
+        </div>
+      </div>
+      <!--card 2-->
+      <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-white p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+        <img src="./images/img10.svg" class="mt-5">
+        <h2 class="text-3xl font-Cabin font-semibold mt-2">Workflow Automations</h2>
+        <p class="font-Cabin text-gray-500 font-semibold mt-2 text-xl">Cut down on manual labor costs through efficient and precise automated processes.</p>
+        <div class="flex gap-5 mt-4">
+          <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+          <img src="./images/img9.svg" class="cursor-pointer">
+        </div>
+      </div>
+      <!--card 3-->
+      <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-white p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+        <img src="./images/img12.svg" class="mt-5">
+        <h2 class="text-3xl font-Cabin font-semibold mt-2">Chatbots for Internal Use</h2>
+        <p class="font-Cabin text-gray-500 font-semibold mt-2 text-xl">Automate tasks to ensure your business operates seamlessly around the clock.</p>
+        <div class="flex gap-5 mt-4">
+          <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+          <img src="./images/img9.svg" class="cursor-pointer">
+        </div>
+      </div>
+      <!--card 4-->
+      <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-white p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+        <img src="./images/img13.svg" class="mt-5">
+        <h2 class="text-3xl font-Cabin font-semibold mt-2">Custom GPTs</h2>
+        <p class="font-Cabin text-gray-500 font-semibold mt-2 text-xl">Harness the power of AI for in-depth analytics and informed decision-making.</p>
+        <div class="flex gap-5 mt-4">
+          <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+          <img src="./images/img9.svg" class="cursor-pointer">
+        </div>
+      </div>
+    </div>
+   </div>
+   <!--content block 1-->
+   <div class="max-w-[1200px] mx-auto mt-20 bg-[#f6f6f6]">
+    <div class="flex items-center gap-28 font-Cabin font-semibold">
+      <div>
+        <p class="text-blue-700 bg-white font-bold w-48 text-center px-7 py-3 rounded-xl">CONTENT BLOCK</p>
+        <h1 class="text-6xl mt-5 text-gray-800">Workflows with our AI<br>automation <span class="text-blue-600">expertise</span></h1>
+        <p class="text-2xl mt-5 text-gray-600">Revolutionize tasks, reduce errors, and boost efficiency with<br>intelligent technology, streamlining operations for unparalleled<br>productivity.</p>
+        <div class="flex items-center gap-5 mt-5">
+          <img src="./images/arrow.svg">
+          <p class="text-2xl text-gray-600">Functional sections</p>
+        </div>
+        <div class="flex items-center gap-5">
+          <img src="./images/arrow.svg">
+          <p class="text-2xl text-gray-600">Easy to customize</p>
+        </div>
+        <a href="#" class="text-white text-center text-xl mt-10 font-semibold bg-blue-600 inline-block rounded-3xl px-6 py-5 hover:bg-gray-800">Book Your Free Audit Call</a>
+      </div>
+      <div>
+        <img src="./images/img15.png" class="w-full">
+      </div>
+    </div>
+  </div>
+  <!--content block 2-->
+  <div class="container mx-auto mt-40">
+    <div class="flex items-center gap-32 font-Cabin font-semibold">
+      <div>
+        <img src="./images/img16.png" class="w-full h-[600px]">
+      </div>
+      <div>
+        <p class="text-blue-700 bg-white font-bold w-48 text-center px-7 py-3 rounded-xl">CONTENT BLOCK</p>
+        <div class="flex items-center gap-5 bg-slate-200 p-10 mt-10 cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+          <img src="./images/img18.svg" class="w-10 h-10">
+          <p>Boost efficiency and cut costs with AI-<br>Powered Automation</p>
+          <img src="./images/arrow.svg">
+        </div>
+        <div class="flex items-center gap-5 bg-slate-200 p-10 mt-5  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+          <img src="./images/img19.svg" class="w-10 h-10">
+          <p>Optimize operations, minimize errors and<br>save resources</p>
+          <img src="./images/arrow.svg">
+        </div>
+        <p class="mt-5 text-gray-600">“Couldn’t be happier with the work the guys from XYZ Agency <br> did for us. Made sales 10x more efficient.”</p>
+        <div class="flex gap-5 mt-5">
+          <img src="./images/img17.jpg" class="h-12 w-12 rounded-full">
+          <div>
+            <h4 class="text-gray-800 font-bold">William James</h4>
+            <p class="text-gray-600">CEO, XYZ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Testimonials-->
+  <div class="flex flex-col items-center justify-center mt-32">
+    <p class="text-blue-500 bg-white font-bold text-center px-7 py-3 rounded-xl">TESTIMONIALS</p>
+    <h1 class="text-6xl font-semibold text-center">Leading the way in AI<br>automation</h1>
+    <div class="w-full inline-flex flex-nowrap mt-10">
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+          <li class="bg-slate-200 w-[320px] rounded-xl p-4">
+              <div class="flex gap-3">
+                <img src="./images/img20.jpg" class="h-12 w-12 rounded-full">
+                <div>
+                  <h4 class="text-gray-600 text-xl font-bold">Jane Lewis</h4>
+                  <p class="text-gray-600">Marketing Director @ ABC</p>
+                </div>
+              </div>
+              <p class="mt-5 text-gray-600">"We've tried countless of agencies but this has been the best experience by far…"</p>
+              <img src="./images/img21.svg" class="mt-10 w-28 h-12">
+            </li>
+            <li class="bg-slate-200 w-[320px] rounded-xl p-4">
+              <div class="flex gap-3">
+                <img src="./images/img21.jpg" class="h-12 w-12 rounded-full">
+                <div>
+                  <h4 class="text-gray-600 text-xl font-bold">Alex James</h4>
+                  <p class="text-gray-600">Marketing Director @ ABC</p>
+                </div>
+              </div>
+              <p class="mt-5 text-gray-600">"We approached Wize for an internal chatbot that's trained on all of our sales data, and the results are amazing!"</p>
+              <img src="./images/img21.svg" class="mt-10 w-28 h-12">
+            </li>
+            <li class="bg-slate-200 w-[320px] rounded-xl p-4">
+              <div class="flex gap-3">
+                <img src="./images/img1.jpg" class="h-12 w-12 rounded-full">
+                <div>
+                  <h4 class="text-gray-600 text-xl font-bold">James Williams</h4>
+                  <p class="text-gray-600">Marketing Director @ ABC</p>
+                </div>
+              </div>
+              <p class="mt-5 text-gray-600">"Our chatbot has taken over more than 60% of our support tickets, and customers are not even noticing they are talking to AI!"</p>
+              <img src="./images/img21.svg" class="mt-10 w-28 h-12">
+            </li>
+      </ul>
+      <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+        <li class="bg-slate-200 w-[320px] rounded-xl p-4">
+          <div class="flex gap-3">
+            <img src="./images/img20.jpg" class="h-12 w-12 rounded-full">
+            <div>
+              <h4 class="text-gray-600 text-xl font-bold">Jane Lewis</h4>
+              <p class="text-gray-600">Marketing Director @ ABC</p>
+            </div>
+          </div>
+          <p class="mt-5 text-gray-600">"We've tried countless of agencies but this has been the best experience by far…"</p>
+          <img src="./images/img21.svg" class="mt-10 w-28 h-12">
+        </li>
+        <li class="bg-slate-200 w-[320px] rounded-xl p-4">
+          <div class="flex gap-3">
+            <img src="./images/img21.jpg" class="h-12 w-12 rounded-full">
+            <div>
+              <h4 class="text-gray-600 text-xl font-bold">Alex James</h4>
+              <p class="text-gray-600">Marketing Director @ ABC</p>
+            </div>
+          </div>
+          <p class="mt-5 text-gray-600">"We approached Wize for an internal chatbot that's trained on all of our sales data, and the results are amazing!"</p>
+          <img src="./images/img21.svg" class="mt-10 w-28 h-12">
+        </li>
+        <li class="bg-slate-200 w-[320px] rounded-xl p-4">
+          <div class="flex gap-3">
+            <img src="./images/img1.jpg" class="h-12 w-12 rounded-full">
+            <div>
+              <h4 class="text-gray-600 text-xl font-bold">James Williams</h4>
+              <p class="text-gray-600">Marketing Director @ ABC</p>
+            </div>
+          </div>
+          <p class="mt-5 text-gray-600">"Our chatbot has taken over more than 60% of our support tickets, and customers are not even noticing they are talking to AI!"</p>
+          <img src="./images/img21.svg" class="mt-10 w-28 h-12">
+        </li>
+      </ul>
+  </div>
+  </div>
+  <!--process section-->
+  <div class="container mx-auto mt-32">
+    <div class="flex gap-28">
+      <div>
+        <p class="text-blue-400 bg-white text-center font-bold w-24 p-2 rounded-xl">Process</p>
+        <h1 class="text-6xl text-gray-600 font-semibold mt-10">How to get started</h1>
+        <p class="text-gray-600 text-xl mt-10">Unleash the power of AI automation to transform routine processes,<br>ensuring precision, 24/7 availability, and significant cost savings.</p>
+        <a href="#" class="text-white text-center text-xl items-center mt-10 font-semibold bg-blue-600 inline-block rounded-3xl px-6 py-5 hover:bg-gray-800 duration-300">Book Your Free Audit Call</a>
+      </div>
+      <div>
+        <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-slate-200 p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-x-2 duration-300">
+          <h2 class="text-blue-600 font-semibold text-3xl">01</h2>
+          <h3 class="text-2xl font-Cabin font-semibold mt-10">Book a discovery call</h2>
+          <p class="font-Cabin text-xl mt-5">Book your free discovery call by clicking one of the buttons on this page.</p>
+          <div class="flex gap-5 mt-5">
+            <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+            <img src="./images/img9.svg" class="w-12 h-8 cursor-pointer">
+          </div>
+        </div>
+        <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-slate-200 p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-x-2 duration-300">
+          <h2 class="text-blue-600 font-semibold text-3xl">02</h2>
+          <h3 class="text-2xl font-Cabin font-semibold mt-10">Get a personal growth strategy</h2>
+          <p class="font-Cabin text-xl mt-5">On this call, we'll assess your business and start working on your personal growth strategy.</p>
+        </div>
+        <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-slate-200 p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-x-2 duration-300">
+          <h2 class="text-blue-600 font-semibold text-3xl">03</h2>
+          <h3 class="text-2xl font-Cabin font-semibold mt-10">Onboarding</h2>
+          <p class="font-Cabin text-xl mt-5">After the strategy is complete, we will onboard you onto our softwares to ensure a smooth process.</p>
+        </div>
+        <div class="max-w-[900px] w-[600px] min-h-[300px] mt-11 bg-slate-200 p-10  cursor-pointer rounded-lg shadow-lg hover:shadow-2xl hover:translate-x-2 duration-300">
+          <h2 class="text-blue-600 font-semibold text-3xl">04</h2>
+          <h3 class="text-2xl font-Cabin font-semibold mt-10">Implementation & results</h2>
+          <p class="font-Cabin text-xl mt-5">And finally, we get to implementing the growth strategy and working to see results.</p>
+          <div class="flex gap-5 mt-5">
+            <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+            <img src="./images/img9.svg" class="w-12 h-8 cursor-pointer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--pricing-->
+  <div class="flex flex-col items-center justify-center mt-32">
+    <p class="text-blue-400 bg-white font-semibold text-center px-7 py-3 rounded-xl">PRICING</p>
+    <h1 class="text-gray-700 font-semibold text-6xl mt-10">Plans to Fit Your Business</h1>
+    <p class="text-2xl text-gray-600 font-semibold mt-7">Monthly</p>
+    <div class="container grid grid-cols-3 gap-3 mt-7">
+      <!--card 1-->
+      <div class="bg-slate-200 w-[400px] h-[800px] px-4 rounded-xl">
+        <div class="w-[370px] min-h-[300px] mt-11 bg-slate-200 p-10 cursor-pointer rounded-xl shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+          <p class="text-xl font-semibold">Pro</p>
+          <h1 class="text-5xl font-Cabin font-semibold mt-10">$199/m</h2>
+          <p class="font-Cabin font-semibold text-xl mt-5">Price breakdown here</p>
+          <a href="#" class="text-white text-center text-xl items-center mt-5 font-semibold bg-blue-600 inline-block rounded-3xl px-24 py-3 hover:bg-gray-800 duration-300">Get Started</a>
+          <p class="font-Cabin text-xl mt-5">Got questions? Talk to an expert.</p>
+          <div class="flex gap-5 mt-5">
+            <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+            <img src="./images/img9.svg" class="w-12 h-8 cursor-pointer">
+          </div>
+        </div>
+        <div class="flex gap-5 mt-10">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-36 mt-10 cursor-pointer">
+          <p class="font-Cabin text-gray-600 font-semibold text-2xl">Optional add-ons</p>
+          <img src="./images/img22.png" class="h-8">
+        </div>
+      </div>
+      <!--card 2-->
+      <div class="bg-slate-200 w-[400px] h-[800px] px-4 rounded-xl">
+        <div class="w-[370px] min-h-[300px] mt-11 bg-slate-200 p-10 cursor-pointer rounded-xl shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+          <div class="flex gap-5">
+            <p class="text-xl font-semibold">Pro</p>
+            <img src="./images/img23.png">
+          </div>
+          <h1 class="text-5xl font-Cabin font-semibold mt-10">$599/m</h2>
+          <p class="font-Cabin font-semibold text-xl mt-5">Price breakdown here</p>
+          <a href="#" class="text-white text-center text-xl items-center mt-5 font-semibold bg-blue-600 inline-block rounded-3xl px-24 py-3 hover:bg-gray-800 duration-300">Get Started</a>
+          <p class="font-Cabin text-xl mt-5">Got questions? Talk to an expert.</p>
+          <div class="flex gap-5 mt-5">
+            <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+            <img src="./images/img9.svg" class="w-12 h-8 cursor-pointer">
+          </div>
+        </div>
+        <div class="flex gap-5 mt-10">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-36 mt-10 cursor-pointer">
+          <p class="font-Cabin text-gray-600 font-semibold text-2xl">Optional add-ons</p>
+          <img src="./images/img22.png" class="h-8">
+        </div>
+      </div>
+      <!--card 3-->
+      <div class="bg-slate-200 w-[400px] h-[800px] px-4 rounded-xl">
+        <div class="w-[370px] min-h-[300px] mt-11 bg-slate-200 p-10 cursor-pointer rounded-xl shadow-lg hover:shadow-2xl hover:translate-y-1 duration-300">
+          <p class="text-xl font-semibold">Premium</p>
+          <h1 class="text-5xl font-Cabin font-semibold mt-10">$499/m</h2>
+          <p class="font-Cabin font-semibold text-xl mt-5">Price breakdown here</p>
+          <a href="#" class="text-white text-center text-xl items-center mt-5 font-semibold bg-blue-600 inline-block rounded-3xl px-24 py-3 hover:bg-gray-800 duration-300">Get Started</a>
+          <p class="font-Cabin text-xl mt-5">Got questions? Talk to an expert.</p>
+          <div class="flex gap-5 mt-5">
+            <p class="font-Cabin font-semibold text-xl text-blue-700">Learn more</p> 
+            <img src="./images/img9.svg" class="w-12 h-8 cursor-pointer">
+          </div>
+        </div>
+        <div class="flex gap-5 mt-10">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-5 mt-2">
+          <img src="./images/arrow.svg" class="h-8">
+          <p class="font-Cabin text-gray-600 text-xl">Feature here</p>
+        </div>
+        <div class="flex gap-36 mt-10 cursor-pointer">
+          <p class="font-Cabin text-gray-600 font-semibold text-2xl">Optional add-ons</p>
+          <img src="./images/img22.png" class="h-8">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FAQ-->
+  <div class="flex flex-col items-center justify-center mt-32">
+    <p class="text-blue-700 bg-gray-200 font-semibold text-center px-7 py-3 rounded-xl">FAQ</p>
+    <h1 class="text-gray-700 font-semibold text-6xl text-center mt-10">You’ve got questions, we’ve<br>got <span class="text-blue-600">answers</span></h1>
+    <div class="border border-gray-400 rounded-xl p-6 mt-10 cursor-pointer">
+      <div class="flex gap-48">
+        <p class="text-2xl text-gray-600 font-semibold">How can I tell if using AI is the right solution for my problem?</p>
+        <img src="./images/img22.png" class="h-8">
+      </div>
+    </div>
+    <div class="border border-gray-400 rounded-xl p-6 mt-5 cursor-pointer">
+      <div class="flex gap-80">
+        <p class="text-2xl text-gray-600 font-semibold">How long does an AI solution take to implement?</p>
+        <img src="./images/img22.png" class="h-8">
+      </div>
+    </div>
+    <div class="border border-gray-400 rounded-xl p-6 mt-5 cursor-pointer">
+      <div class="flex gap-96">
+        <p class="text-2xl text-gray-600 font-semibold">Will we need to make changes in our team?</p>
+        <img src="./images/img22.png" class="h-8">
+      </div>
+    </div>
+  </div>
+  <!--footer section-->
+  <div class="container mx-auto flex flex-col items-center justify-center mt-32 bg-gray-800 rounded-3xl">
+    <p class="text-white bg-gray-700 font-bold text-center px-7 py-3 rounded-xl mt-20">TESTIMONIALS</p>
+    <h1 class="text-white font-semibold text-6xl mt-10">Ready to <span class="text-blue-600">Get Started?</span></h1>
+    <p class="text-2xl text-white text-center mt-10">Experience the future of business operations with AI automation—increased<br>speed, accuracy, and adaptability, driving overall productivity gains.</p>
+    <a href="#" class="text-white text-center mt-10 text-xl items-center font-semibold bg-blue-600 inline-block rounded-3xl px-6 py-5 hover:bg-transparent duration-300">Book Your Free Audit Call</a>
+    <div class="flex items-center gap-12 mt-32 mb-20">
+      <div class="flex gap-5">
+        <img src="./images/fb.png" class="w-7 h-7 cursor-pointer">
+        <img src="./images/link.png" class="w-7 h-7 cursor-pointer">
+        <img src="./images/twitter.png" class="w-7 h-7 cursor-pointer">
+      </div>
+      <div class="flex flex-col items-center justify-center ml-60">
+        <img src="./images/logo.svg" class="w-20 cursor-pointer">
+        <p class="text-lg text-white text-center mt-5">Build a powerful agency site with<br>Framer.</p>
+      </div>
+      <ul class="flex-1 text-center">
+        <li class="list-none inline-block px-5"></li><a href="#" class="text-white text-lg font-semibold px-2 hover:text-blue-600">Home</a></li>
+        <li class="list-none inline-block px-5"></li><a href="#" class="text-white text-lg font-semibold px-2 hover:text-blue-600">About Us</a></li>
+        <li class="list-none inline-block px-5"></li><a href="#" class="text-white text-lg font-semibold px-2 hover:text-blue-600">Blog</a></li>
+    </ul>
+  </div>
+  </div>
+  </body>
+</html>
